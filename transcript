@@ -1,0 +1,264 @@
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2021.2 win64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim work.elevator_ctrl_tb 
+# Start time: 16:58:04 on Sep 24,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.hexas_pck(body)
+# Loading work.elevator_ctrl_tb(bench)#1
+# Loading work.unit_control(rtl)#1
+vsim work.elevator_ctrl_tb -voptargs=+acc
+# End time: 16:59:42 on Sep 24,2022, Elapsed time: 0:01:38
+# Errors: 0, Warnings: 0
+# vsim work.elevator_ctrl_tb -voptargs="+acc" 
+# Start time: 16:59:42 on Sep 24,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.hexas_pck(body)
+# Loading work.elevator_ctrl_tb(bench)#1
+# Loading work.elevator_ctrl(rtl)#1
+# Loading work.unit_control(rtl)#1
+# Loading work.request_reslover(rtl)#1
+# Loading work.ssd(behavior)#1
+add wave -position insertpoint  \
+sim:/elevator_ctrl_tb/DUT/timer_delay \
+sim:/elevator_ctrl_tb/DUT/clock \
+sim:/elevator_ctrl_tb/DUT/reset \
+sim:/elevator_ctrl_tb/DUT/b0 \
+sim:/elevator_ctrl_tb/DUT/b1 \
+sim:/elevator_ctrl_tb/DUT/b2 \
+sim:/elevator_ctrl_tb/DUT/b3 \
+sim:/elevator_ctrl_tb/DUT/mv_up \
+sim:/elevator_ctrl_tb/DUT/mv_down \
+sim:/elevator_ctrl_tb/DUT/door_open \
+sim:/elevator_ctrl_tb/DUT/floor \
+sim:/elevator_ctrl_tb/DUT/reached \
+sim:/elevator_ctrl_tb/DUT/flr \
+sim:/elevator_ctrl_tb/DUT/u0_out \
+sim:/elevator_ctrl_tb/DUT/u1_out \
+sim:/elevator_ctrl_tb/DUT/u2_out \
+sim:/elevator_ctrl_tb/DUT/u3_out \
+sim:/elevator_ctrl_tb/DUT/u4_out \
+sim:/elevator_ctrl_tb/DUT/u5_out \
+sim:/elevator_ctrl_tb/DUT/u6_out \
+sim:/elevator_ctrl_tb/DUT/u7_out \
+sim:/elevator_ctrl_tb/DUT/u8_out \
+sim:/elevator_ctrl_tb/DUT/d1_out \
+sim:/elevator_ctrl_tb/DUT/d2_out \
+sim:/elevator_ctrl_tb/DUT/d3_out \
+sim:/elevator_ctrl_tb/DUT/d4_out \
+sim:/elevator_ctrl_tb/DUT/d5_out \
+sim:/elevator_ctrl_tb/DUT/d6_out \
+sim:/elevator_ctrl_tb/DUT/d7_out \
+sim:/elevator_ctrl_tb/DUT/d8_out \
+sim:/elevator_ctrl_tb/DUT/d9_out \
+sim:/elevator_ctrl_tb/DUT/b0_out \
+sim:/elevator_ctrl_tb/DUT/b1_out \
+sim:/elevator_ctrl_tb/DUT/b2_out \
+sim:/elevator_ctrl_tb/DUT/b3_out \
+sim:/elevator_ctrl_tb/DUT/b4_out \
+sim:/elevator_ctrl_tb/DUT/b5_out \
+sim:/elevator_ctrl_tb/DUT/b6_out \
+sim:/elevator_ctrl_tb/DUT/b7_out \
+sim:/elevator_ctrl_tb/DUT/b8_out \
+sim:/elevator_ctrl_tb/DUT/b9_out \
+sim:/elevator_ctrl_tb/DUT/b0_inv \
+sim:/elevator_ctrl_tb/DUT/b1_inv \
+sim:/elevator_ctrl_tb/DUT/b2_inv \
+sim:/elevator_ctrl_tb/DUT/b3_inv \
+sim:/elevator_ctrl_tb/DUT/up0 \
+sim:/elevator_ctrl_tb/DUT/up1 \
+sim:/elevator_ctrl_tb/DUT/up2 \
+sim:/elevator_ctrl_tb/DUT/up3 \
+sim:/elevator_ctrl_tb/DUT/up4 \
+sim:/elevator_ctrl_tb/DUT/up5 \
+sim:/elevator_ctrl_tb/DUT/up6 \
+sim:/elevator_ctrl_tb/DUT/up7 \
+sim:/elevator_ctrl_tb/DUT/up8 \
+sim:/elevator_ctrl_tb/DUT/dn1 \
+sim:/elevator_ctrl_tb/DUT/dn2 \
+sim:/elevator_ctrl_tb/DUT/dn3 \
+sim:/elevator_ctrl_tb/DUT/dn4 \
+sim:/elevator_ctrl_tb/DUT/dn5 \
+sim:/elevator_ctrl_tb/DUT/dn6 \
+sim:/elevator_ctrl_tb/DUT/dn7 \
+sim:/elevator_ctrl_tb/DUT/dn8 \
+sim:/elevator_ctrl_tb/DUT/dn9 \
+sim:/elevator_ctrl_tb/DUT/b4 \
+sim:/elevator_ctrl_tb/DUT/b5 \
+sim:/elevator_ctrl_tb/DUT/b6 \
+sim:/elevator_ctrl_tb/DUT/b7 \
+sim:/elevator_ctrl_tb/DUT/b8 \
+sim:/elevator_ctrl_tb/DUT/b9 \
+sim:/elevator_ctrl_tb/DUT/req_button
+run
+# ** Note: Current state: idle
+# 
+#    Time: 0 ns  Iteration: 1  Instance: /elevator_ctrl_tb
+# ** Note: Check Output signals: UP:0 DOWN:0 OPEN:0
+# 
+#    Time: 0 ns  Iteration: 1  Instance: /elevator_ctrl_tb
+# ** Note: ----------------------------------------------------------------
+# 
+#    Time: 0 ns  Iteration: 1  Instance: /elevator_ctrl_tb
+# ** Note: Current state: idle
+# 
+#    Time: 0 ns  Iteration: 3  Instance: /elevator_ctrl_tb
+# ** Note: Check Output signals: UP:0 DOWN:0 OPEN:0
+# 
+#    Time: 0 ns  Iteration: 3  Instance: /elevator_ctrl_tb
+# ** Note: ----------------------------------------------------------------
+# 
+#    Time: 0 ns  Iteration: 3  Instance: /elevator_ctrl_tb
+# ** Note: REQESTED FLOOR IS FLOOR NUMBER: 4
+# 
+#    Time: 25 ns  Iteration: 0  Instance: /elevator_ctrl_tb
+# ** Note: ----------------------------------------------------------------
+# 
+#    Time: 25 ns  Iteration: 0  Instance: /elevator_ctrl_tb
+# ** Note: Current state: up_state
+# 
+#    Time: 48 ns  Iteration: 4  Instance: /elevator_ctrl_tb
+# ** Note: Check Output signals: UP:1 DOWN:0 OPEN:0
+# 
+#    Time: 48 ns  Iteration: 4  Instance: /elevator_ctrl_tb
+# ** Note: Elevator is moving up to Floor: 1
+# 
+#    Time: 48 ns  Iteration: 4  Instance: /elevator_ctrl_tb
+# ** Note: ----------------------------------------------------------------
+# 
+#    Time: 48 ns  Iteration: 4  Instance: /elevator_ctrl_tb
+# ** Note: REQESTED FLOOR IS FLOOR NUMBER: 2
+# 
+#    Time: 77 ns  Iteration: 0  Instance: /elevator_ctrl_tb
+# ** Note: ----------------------------------------------------------------
+# 
+#    Time: 77 ns  Iteration: 0  Instance: /elevator_ctrl_tb
+# ** Note: Current state: up_state
+# 
+#    Time: 96 ns  Iteration: 4  Instance: /elevator_ctrl_tb
+# ** Note: Check Output signals: UP:1 DOWN:0 OPEN:0
+# 
+#    Time: 96 ns  Iteration: 4  Instance: /elevator_ctrl_tb
+# ** Note: Elevator is moving up to Floor: 2
+# 
+#    Time: 96 ns  Iteration: 4  Instance: /elevator_ctrl_tb
+# ** Note: ----------------------------------------------------------------
+# 
+#    Time: 96 ns  Iteration: 4  Instance: /elevator_ctrl_tb
+run
+# ** Note: Current state: open_state
+# 
+#    Time: 125 ns  Iteration: 0  Instance: /elevator_ctrl_tb
+# ** Note: Check Output signals: UP:0 DOWN:0 OPEN:1
+# 
+#    Time: 125 ns  Iteration: 0  Instance: /elevator_ctrl_tb
+# ** Note: Elevator is reached to Floor: 2 successfuly
+# 
+#    Time: 125 ns  Iteration: 0  Instance: /elevator_ctrl_tb
+# ** Note: ----------------------------------------------------------------
+# 
+#    Time: 125 ns  Iteration: 0  Instance: /elevator_ctrl_tb
+# ** Note: REQESTED FLOOR IS FLOOR NUMBER: 4
+# 
+#    Time: 125 ns  Iteration: 0  Instance: /elevator_ctrl_tb
+# ** Note: ----------------------------------------------------------------
+# 
+#    Time: 125 ns  Iteration: 0  Instance: /elevator_ctrl_tb
+# ** Note: Current state: up_state
+# 
+#    Time: 196 ns  Iteration: 4  Instance: /elevator_ctrl_tb
+# ** Note: Check Output signals: UP:1 DOWN:0 OPEN:0
+# 
+#    Time: 196 ns  Iteration: 4  Instance: /elevator_ctrl_tb
+# ** Note: Elevator is moving up to Floor: 3
+# 
+#    Time: 196 ns  Iteration: 4  Instance: /elevator_ctrl_tb
+# ** Note: ----------------------------------------------------------------
+# 
+#    Time: 196 ns  Iteration: 4  Instance: /elevator_ctrl_tb
+# A time value could not be extracted from the current line
+run
+# ** Note: Current state: up_state
+# 
+#    Time: 244 ns  Iteration: 4  Instance: /elevator_ctrl_tb
+# ** Note: Check Output signals: UP:1 DOWN:0 OPEN:0
+# 
+#    Time: 244 ns  Iteration: 4  Instance: /elevator_ctrl_tb
+# ** Note: Elevator is moving up to Floor: 4
+# 
+#    Time: 244 ns  Iteration: 4  Instance: /elevator_ctrl_tb
+# ** Note: ----------------------------------------------------------------
+# 
+#    Time: 244 ns  Iteration: 4  Instance: /elevator_ctrl_tb
+# ** Note: Current state: open_state
+# 
+#    Time: 273 ns  Iteration: 0  Instance: /elevator_ctrl_tb
+# ** Note: Check Output signals: UP:0 DOWN:0 OPEN:1
+# 
+#    Time: 273 ns  Iteration: 0  Instance: /elevator_ctrl_tb
+# ** Note: Elevator is reached to Floor: 4 successfuly
+# 
+#    Time: 273 ns  Iteration: 0  Instance: /elevator_ctrl_tb
+# ** Note: ----------------------------------------------------------------
+# 
+#    Time: 273 ns  Iteration: 0  Instance: /elevator_ctrl_tb
+# ** Note: REQESTED FLOOR IS FLOOR NUMBER: 5
+# 
+#    Time: 273 ns  Iteration: 0  Instance: /elevator_ctrl_tb
+# ** Note: ----------------------------------------------------------------
+# 
+#    Time: 273 ns  Iteration: 0  Instance: /elevator_ctrl_tb
+run
+# ** Note: Current state: up_state
+# 
+#    Time: 344 ns  Iteration: 4  Instance: /elevator_ctrl_tb
+# ** Note: Check Output signals: UP:1 DOWN:0 OPEN:0
+# 
+#    Time: 344 ns  Iteration: 4  Instance: /elevator_ctrl_tb
+# ** Note: Elevator is moving up to Floor: 5
+# 
+#    Time: 344 ns  Iteration: 4  Instance: /elevator_ctrl_tb
+# ** Note: ----------------------------------------------------------------
+# 
+#    Time: 344 ns  Iteration: 4  Instance: /elevator_ctrl_tb
+# ** Note: Current state: open_state
+# 
+#    Time: 373 ns  Iteration: 0  Instance: /elevator_ctrl_tb
+# ** Note: Check Output signals: UP:0 DOWN:0 OPEN:1
+# 
+#    Time: 373 ns  Iteration: 0  Instance: /elevator_ctrl_tb
+# ** Note: Elevator is reached to Floor: 5 successfuly
+# 
+#    Time: 373 ns  Iteration: 0  Instance: /elevator_ctrl_tb
+# ** Note: ----------------------------------------------------------------
+# 
+#    Time: 373 ns  Iteration: 0  Instance: /elevator_ctrl_tb
+# ** Note: REQESTED FLOOR IS FLOOR NUMBER: 8
+# 
+#    Time: 373 ns  Iteration: 0  Instance: /elevator_ctrl_tb
+# ** Note: ----------------------------------------------------------------
+# 
+#    Time: 373 ns  Iteration: 0  Instance: /elevator_ctrl_tb
+# End time: 17:02:40 on Sep 24,2022, Elapsed time: 0:02:58
+# Errors: 0, Warnings: 0
